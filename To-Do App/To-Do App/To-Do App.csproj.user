@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Compile Update="Models\RoundButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Models\RoundCheckbox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="UI\Forms\FormNewNote.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="UI\Forms\FormNotification.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="UI\User Controls\Contact.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="UI\Forms\FormPrincipal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="UI\User Controls\Default.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="UI\User Controls\Home.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="UI\User Controls\ItemNota.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="UI\User Controls\Settings.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Update="UI\Forms\FormPrincipal.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+</Project>

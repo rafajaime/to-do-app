@@ -1,0 +1,40 @@
+C:\Users\Rafa\Desktop\visual studio\tuts\c#\To-Do App\To-Do App\bin\Debug\net8.0-windows\To-Do App.exe
+C:\Users\Rafa\Desktop\visual studio\tuts\c#\To-Do App\To-Do App\bin\Debug\net8.0-windows\To-Do App.deps.json
+C:\Users\Rafa\Desktop\visual studio\tuts\c#\To-Do App\To-Do App\bin\Debug\net8.0-windows\To-Do App.runtimeconfig.json
+C:\Users\Rafa\Desktop\visual studio\tuts\c#\To-Do App\To-Do App\bin\Debug\net8.0-windows\To-Do App.dll
+C:\Users\Rafa\Desktop\visual studio\tuts\c#\To-Do App\To-Do App\bin\Debug\net8.0-windows\To-Do App.pdb
+C:\Users\Rafa\Desktop\visual studio\tuts\c#\To-Do App\To-Do App\obj\Debug\net8.0-windows\To_Do_App.Properties.Resources.resources
+C:\Users\Rafa\Desktop\visual studio\tuts\c#\To-Do App\To-Do App\obj\Debug\net8.0-windows\To-Do App.csproj.GenerateResource.cache
+C:\Users\Rafa\Desktop\visual studio\tuts\c#\To-Do App\To-Do App\obj\Debug\net8.0-windows\To-Do App.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Rafa\Desktop\visual studio\tuts\c#\To-Do App\To-Do App\obj\Debug\net8.0-windows\To-Do App.AssemblyInfoInputs.cache
+C:\Users\Rafa\Desktop\visual studio\tuts\c#\To-Do App\To-Do App\obj\Debug\net8.0-windows\To-Do App.AssemblyInfo.cs
+C:\Users\Rafa\Desktop\visual studio\tuts\c#\To-Do App\To-Do App\obj\Debug\net8.0-windows\To-Do App.csproj.CoreCompileInputs.cache
+C:\Users\Rafa\Desktop\visual studio\tuts\c#\To-Do App\To-Do App\obj\Debug\net8.0-windows\To-Do App.dll
+C:\Users\Rafa\Desktop\visual studio\tuts\c#\To-Do App\To-Do App\obj\Debug\net8.0-windows\refint\To-Do App.dll
+C:\Users\Rafa\Desktop\visual studio\tuts\c#\To-Do App\To-Do App\obj\Debug\net8.0-windows\To-Do App.pdb
+C:\Users\Rafa\Desktop\visual studio\tuts\c#\To-Do App\To-Do App\obj\Debug\net8.0-windows\To-Do App.genruntimeconfig.cache
+C:\Users\Rafa\Desktop\visual studio\tuts\c#\To-Do App\To-Do App\obj\Debug\net8.0-windows\ref\To-Do App.dll
+C:\Users\Rafa\Desktop\visual studio\tuts\c#\To-Do App\To-Do App\obj\Debug\net8.0-windows\To_Do_App.Contact.resources
+C:\Users\Rafa\Desktop\visual studio\tuts\c#\To-Do App\To-Do App\obj\Debug\net8.0-windows\To_Do_App.UI.User_Controls.Home.resources
+C:\Users\Rafa\Desktop\visual studio\tuts\c#\To-Do App\To-Do App\obj\Debug\net8.0-windows\To_Do_App.UI.User_Controls.Default.resources
+C:\Users\Rafa\Desktop\visual studio\tuts\c#\To-Do App\To-Do App\obj\Debug\net8.0-windows\To_Do_App.UI.User_Controls.Settings.resources
+C:\Users\Rafa\Desktop\visual studio\tuts\c#\To-Do App\To-Do App\obj\Debug\net8.0-windows\To_Do_App.FormPrincipal.resources
+C:\Users\Rafa\Desktop\visual studio\tuts\c#\To-Do App\To-Do App\obj\Debug\net8.0-windows\To_Do_App.UI.Forms.FormNewNote.resources
+C:\Users\Rafa\Desktop\visual studio\tuts\c#\To-Do App\To-Do App\obj\Debug\net8.0-windows\To-Do App.csproj.AssemblyReference.cache
+C:\Users\Rafa\Desktop\visual studio\tuts\c#\To-Do App\To-Do App\bin\Debug\net8.0-windows\EntityFramework.SqlServer.dll
+C:\Users\Rafa\Desktop\visual studio\tuts\c#\To-Do App\To-Do App\bin\Debug\net8.0-windows\EntityFramework.dll
+C:\Users\Rafa\Desktop\visual studio\tuts\c#\To-Do App\To-Do App\bin\Debug\net8.0-windows\System.Data.SQLite.dll
+C:\Users\Rafa\Desktop\visual studio\tuts\c#\To-Do App\To-Do App\bin\Debug\net8.0-windows\System.Data.SqlClient.dll
+C:\Users\Rafa\Desktop\visual studio\tuts\c#\To-Do App\To-Do App\bin\Debug\net8.0-windows\System.Data.SQLite.EF6.dll
+C:\Users\Rafa\Desktop\visual studio\tuts\c#\To-Do App\To-Do App\bin\Debug\net8.0-windows\runtimes\win-arm64\native\sni.dll
+C:\Users\Rafa\Desktop\visual studio\tuts\c#\To-Do App\To-Do App\bin\Debug\net8.0-windows\runtimes\win-x64\native\sni.dll
+C:\Users\Rafa\Desktop\visual studio\tuts\c#\To-Do App\To-Do App\bin\Debug\net8.0-windows\runtimes\win-x86\native\sni.dll
+C:\Users\Rafa\Desktop\visual studio\tuts\c#\To-Do App\To-Do App\bin\Debug\net8.0-windows\runtimes\linux-x64\native\SQLite.Interop.dll
+C:\Users\Rafa\Desktop\visual studio\tuts\c#\To-Do App\To-Do App\bin\Debug\net8.0-windows\runtimes\osx-x64\native\SQLite.Interop.dll
+C:\Users\Rafa\Desktop\visual studio\tuts\c#\To-Do App\To-Do App\bin\Debug\net8.0-windows\runtimes\win-x64\native\SQLite.Interop.dll
+C:\Users\Rafa\Desktop\visual studio\tuts\c#\To-Do App\To-Do App\bin\Debug\net8.0-windows\runtimes\win-x86\native\SQLite.Interop.dll
+C:\Users\Rafa\Desktop\visual studio\tuts\c#\To-Do App\To-Do App\bin\Debug\net8.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Rafa\Desktop\visual studio\tuts\c#\To-Do App\To-Do App\bin\Debug\net8.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Rafa\Desktop\visual studio\tuts\c#\To-Do App\To-Do App\obj\Debug\net8.0-windows\To-Do App.csproj.CopyComplete
+C:\Users\Rafa\Desktop\visual studio\tuts\c#\To-Do App\To-Do App\obj\Debug\net8.0-windows\To_Do_App.UI.User_Controls.ItemNota.resources
+C:\Users\Rafa\Desktop\visual studio\tuts\c#\To-Do App\To-Do App\obj\Debug\net8.0-windows\To_Do_App.UI.Forms.FormNotification.resources
