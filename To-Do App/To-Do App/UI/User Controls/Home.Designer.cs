@@ -33,7 +33,7 @@
             lblTitulo = new Label();
             panel1 = new Panel();
             btnDeleteNote = new Models.RoundButton();
-            imageListBotonMinus = new ImageList(components);
+            imgListBotonMinus = new ImageList(components);
             btnNewNote = new Models.RoundButton();
             imgListBotonPlus = new ImageList(components);
             flopNotas = new FlowLayoutPanel();
@@ -66,7 +66,7 @@
             btnDeleteNote.FlatAppearance.BorderSize = 0;
             btnDeleteNote.FlatStyle = FlatStyle.Flat;
             btnDeleteNote.ImageIndex = 0;
-            btnDeleteNote.ImageList = imageListBotonMinus;
+            btnDeleteNote.ImageList = imgListBotonMinus;
             btnDeleteNote.Location = new Point(75, 21);
             btnDeleteNote.Name = "btnDeleteNote";
             btnDeleteNote.Size = new Size(71, 55);
@@ -74,12 +74,13 @@
             btnDeleteNote.UseVisualStyleBackColor = true;
             btnDeleteNote.Click += btnDeleteNote_Click;
             // 
-            // imageListBotonMinus
+            // imgListBotonMinus
             // 
-            imageListBotonMinus.ColorDepth = ColorDepth.Depth32Bit;
-            imageListBotonMinus.ImageStream = (ImageListStreamer)resources.GetObject("imageListBotonMinus.ImageStream");
-            imageListBotonMinus.TransparentColor = Color.Transparent;
-            imageListBotonMinus.Images.SetKeyName(0, "remove.png");
+            imgListBotonMinus.ColorDepth = ColorDepth.Depth32Bit;
+            imgListBotonMinus.ImageStream = (ImageListStreamer)resources.GetObject("imgListBotonMinus.ImageStream");
+            imgListBotonMinus.TransparentColor = Color.Transparent;
+            imgListBotonMinus.Images.SetKeyName(0, "removenoteDark.png");
+            imgListBotonMinus.Images.SetKeyName(1, "removenoteLight.png");
             // 
             // btnNewNote
             // 
@@ -100,7 +101,8 @@
             imgListBotonPlus.ColorDepth = ColorDepth.Depth32Bit;
             imgListBotonPlus.ImageStream = (ImageListStreamer)resources.GetObject("imgListBotonPlus.ImageStream");
             imgListBotonPlus.TransparentColor = Color.Transparent;
-            imgListBotonPlus.Images.SetKeyName(0, "note.png");
+            imgListBotonPlus.Images.SetKeyName(0, "addnoteDark.png");
+            imgListBotonPlus.Images.SetKeyName(1, "addnoteLight.png");
             // 
             // flopNotas
             // 
@@ -134,7 +136,7 @@
         private Models.RoundButton btnNewNote;
         private Models.RoundButton btnDeleteNote;
         private ImageList imgListBotonPlus;
-        private ImageList imageListBotonMinus;
         public Label lblTitulo;
+        public ImageList imgListBotonMinus;
     }
 }

@@ -1,0 +1,34 @@
+C:\Users\Rafa\Desktop\visual studio\tuts\c#\To-Do App\To-Do App\bin\Release\net8.0-windows\win-x86\To-Do App.deps.json
+C:\Users\Rafa\Desktop\visual studio\tuts\c#\To-Do App\To-Do App\bin\Release\net8.0-windows\win-x86\To-Do App.runtimeconfig.json
+C:\Users\Rafa\Desktop\visual studio\tuts\c#\To-Do App\To-Do App\bin\Release\net8.0-windows\win-x86\To-Do App.exe
+C:\Users\Rafa\Desktop\visual studio\tuts\c#\To-Do App\To-Do App\bin\Release\net8.0-windows\win-x86\To-Do App.dll
+C:\Users\Rafa\Desktop\visual studio\tuts\c#\To-Do App\To-Do App\bin\Release\net8.0-windows\win-x86\To-Do App.pdb
+C:\Users\Rafa\Desktop\visual studio\tuts\c#\To-Do App\To-Do App\bin\Release\net8.0-windows\win-x86\EntityFramework.SqlServer.dll
+C:\Users\Rafa\Desktop\visual studio\tuts\c#\To-Do App\To-Do App\bin\Release\net8.0-windows\win-x86\EntityFramework.dll
+C:\Users\Rafa\Desktop\visual studio\tuts\c#\To-Do App\To-Do App\bin\Release\net8.0-windows\win-x86\System.Data.SQLite.dll
+C:\Users\Rafa\Desktop\visual studio\tuts\c#\To-Do App\To-Do App\bin\Release\net8.0-windows\win-x86\System.Data.SqlClient.dll
+C:\Users\Rafa\Desktop\visual studio\tuts\c#\To-Do App\To-Do App\bin\Release\net8.0-windows\win-x86\System.Data.SQLite.EF6.dll
+C:\Users\Rafa\Desktop\visual studio\tuts\c#\To-Do App\To-Do App\bin\Release\net8.0-windows\win-x86\sni.dll
+C:\Users\Rafa\Desktop\visual studio\tuts\c#\To-Do App\To-Do App\bin\Release\net8.0-windows\win-x86\SQLite.Interop.dll
+C:\Users\Rafa\Desktop\visual studio\tuts\c#\To-Do App\To-Do App\obj\Release\net8.0-windows\win-x86\To-Do App.csproj.AssemblyReference.cache
+C:\Users\Rafa\Desktop\visual studio\tuts\c#\To-Do App\To-Do App\obj\Release\net8.0-windows\win-x86\To-Do App.g.resources
+C:\Users\Rafa\Desktop\visual studio\tuts\c#\To-Do App\To-Do App\obj\Release\net8.0-windows\win-x86\To_Do_App.Properties.Resources.resources
+C:\Users\Rafa\Desktop\visual studio\tuts\c#\To-Do App\To-Do App\obj\Release\net8.0-windows\win-x86\To_Do_App.UI.Forms.FormNewNote.resources
+C:\Users\Rafa\Desktop\visual studio\tuts\c#\To-Do App\To-Do App\obj\Release\net8.0-windows\win-x86\To_Do_App.UI.Forms.FormNotification.resources
+C:\Users\Rafa\Desktop\visual studio\tuts\c#\To-Do App\To-Do App\obj\Release\net8.0-windows\win-x86\To_Do_App.FormPrincipal.resources
+C:\Users\Rafa\Desktop\visual studio\tuts\c#\To-Do App\To-Do App\obj\Release\net8.0-windows\win-x86\To_Do_App.Contact.resources
+C:\Users\Rafa\Desktop\visual studio\tuts\c#\To-Do App\To-Do App\obj\Release\net8.0-windows\win-x86\To_Do_App.UI.User_Controls.Default.resources
+C:\Users\Rafa\Desktop\visual studio\tuts\c#\To-Do App\To-Do App\obj\Release\net8.0-windows\win-x86\To_Do_App.UI.User_Controls.Home.resources
+C:\Users\Rafa\Desktop\visual studio\tuts\c#\To-Do App\To-Do App\obj\Release\net8.0-windows\win-x86\To_Do_App.UI.User_Controls.ItemNota.resources
+C:\Users\Rafa\Desktop\visual studio\tuts\c#\To-Do App\To-Do App\obj\Release\net8.0-windows\win-x86\To_Do_App.UI.User_Controls.Settings.resources
+C:\Users\Rafa\Desktop\visual studio\tuts\c#\To-Do App\To-Do App\obj\Release\net8.0-windows\win-x86\To-Do App.csproj.GenerateResource.cache
+C:\Users\Rafa\Desktop\visual studio\tuts\c#\To-Do App\To-Do App\obj\Release\net8.0-windows\win-x86\To-Do App.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Rafa\Desktop\visual studio\tuts\c#\To-Do App\To-Do App\obj\Release\net8.0-windows\win-x86\To-Do App.AssemblyInfoInputs.cache
+C:\Users\Rafa\Desktop\visual studio\tuts\c#\To-Do App\To-Do App\obj\Release\net8.0-windows\win-x86\To-Do App.AssemblyInfo.cs
+C:\Users\Rafa\Desktop\visual studio\tuts\c#\To-Do App\To-Do App\obj\Release\net8.0-windows\win-x86\To-Do App.csproj.CoreCompileInputs.cache
+C:\Users\Rafa\Desktop\visual studio\tuts\c#\To-Do App\To-Do App\obj\Release\net8.0-windows\win-x86\To-Do App.genruntimeconfig.cache
+C:\Users\Rafa\Desktop\visual studio\tuts\c#\To-Do App\To-Do App\obj\Release\net8.0-windows\win-x86\To-Do App.csproj.CopyComplete
+C:\Users\Rafa\Desktop\visual studio\tuts\c#\To-Do App\To-Do App\obj\Release\net8.0-windows\win-x86\To-Do App.dll
+C:\Users\Rafa\Desktop\visual studio\tuts\c#\To-Do App\To-Do App\obj\Release\net8.0-windows\win-x86\refint\To-Do App.dll
+C:\Users\Rafa\Desktop\visual studio\tuts\c#\To-Do App\To-Do App\obj\Release\net8.0-windows\win-x86\To-Do App.pdb
+C:\Users\Rafa\Desktop\visual studio\tuts\c#\To-Do App\To-Do App\obj\Release\net8.0-windows\win-x86\ref\To-Do App.dll

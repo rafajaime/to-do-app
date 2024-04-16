@@ -104,6 +104,7 @@
             Name = "FormNotification";
             ShowInTaskbar = false;
             Text = "FormNotification";
+            TopMost = true;
             Load += FormNotification_Load;
             MouseDown += FormNotification_MouseDown;
             ((System.ComponentModel.ISupportInitialize)picTipo).EndInit();

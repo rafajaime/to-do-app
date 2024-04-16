@@ -1,0 +1,2 @@
+C:\Users\Rafa\Desktop\visual studio\tuts\c#\To-Do App\To-Do App\bin\Release\net8.0-windows\publish\win-x86\To-Do App.pdb
+C:\Users\Rafa\Desktop\visual studio\tuts\c#\To-Do App\To-Do App\bin\Release\net8.0-windows\publish\win-x86\To-Do App.exe

@@ -37,7 +37,6 @@
             btnSettings = new Button();
             btnHome = new Button();
             PanelMenuNotas = new Panel();
-            lblUINombre = new Label();
             pictureBox1 = new PictureBox();
             ucSettings = new UI.User_Controls.Settings();
             ucHome = new UI.User_Controls.Home();
@@ -94,9 +93,12 @@
             imglBotones.ColorDepth = ColorDepth.Depth32Bit;
             imglBotones.ImageStream = (ImageListStreamer)resources.GetObject("imglBotones.ImageStream");
             imglBotones.TransparentColor = Color.Transparent;
-            imglBotones.Images.SetKeyName(0, "home.png");
-            imglBotones.Images.SetKeyName(1, "settings.png");
-            imglBotones.Images.SetKeyName(2, "contact.png");
+            imglBotones.Images.SetKeyName(0, "homeDark.png");
+            imglBotones.Images.SetKeyName(1, "settingsDark.png");
+            imglBotones.Images.SetKeyName(2, "contactDark.png");
+            imglBotones.Images.SetKeyName(3, "homeLight.png");
+            imglBotones.Images.SetKeyName(4, "settingsLight.png");
+            imglBotones.Images.SetKeyName(5, "contactLight.png");
             // 
             // btnSettings
             // 
@@ -130,7 +132,6 @@
             // 
             // PanelMenuNotas
             // 
-            PanelMenuNotas.Controls.Add(lblUINombre);
             PanelMenuNotas.Controls.Add(pictureBox1);
             PanelMenuNotas.Location = new Point(0, 0);
             PanelMenuNotas.Name = "PanelMenuNotas";
@@ -138,24 +139,12 @@
             PanelMenuNotas.TabIndex = 0;
             PanelMenuNotas.MouseDown += panel2_MouseDown;
             // 
-            // lblUINombre
-            // 
-            lblUINombre.AutoSize = true;
-            lblUINombre.Font = new Font("Microsoft Tai Le", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            lblUINombre.ForeColor = Color.FromArgb(0, 159, 149);
-            lblUINombre.Location = new Point(28, 70);
-            lblUINombre.Name = "lblUINombre";
-            lblUINombre.Size = new Size(55, 21);
-            lblUINombre.TabIndex = 1;
-            lblUINombre.Text = "Notas";
-            lblUINombre.MouseDown += lblUINombre_MouseDown;
-            // 
             // pictureBox1
             // 
             pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
-            pictureBox1.Location = new Point(18, 6);
+            pictureBox1.Location = new Point(-51, -6);
             pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(74, 61);
+            pictureBox1.Size = new Size(208, 108);
             pictureBox1.SizeMode = PictureBoxSizeMode.Zoom;
             pictureBox1.TabIndex = 0;
             pictureBox1.TabStop = false;
@@ -166,7 +155,7 @@
             ucSettings.BackColor = Color.FromArgb(41, 51, 73);
             ucSettings.Location = new Point(113, 0);
             ucSettings.Name = "ucSettings";
-            ucSettings.Size = new Size(583, 627);
+            ucSettings.Size = new Size(594, 635);
             ucSettings.TabIndex = 2;
             ucSettings.MouseDown += ucSettings_MouseDown;
             // 
@@ -175,16 +164,16 @@
             ucHome.BackColor = Color.FromArgb(41, 51, 73);
             ucHome.Location = new Point(113, 0);
             ucHome.Name = "ucHome";
-            ucHome.Size = new Size(583, 627);
+            ucHome.Size = new Size(594, 635);
             ucHome.TabIndex = 1;
             ucHome.MouseDown += ucHome_MouseDown;
             // 
             // ucContact
             // 
             ucContact.BackColor = Color.FromArgb(41, 51, 73);
-            ucContact.Location = new Point(113, 0);
+            ucContact.Location = new Point(113, -6);
             ucContact.Name = "ucContact";
-            ucContact.Size = new Size(583, 627);
+            ucContact.Size = new Size(594, 635);
             ucContact.TabIndex = 2;
             ucContact.MouseDown += ucContact_MouseDown;
             // 
@@ -193,7 +182,7 @@
             ucDefault.BackColor = Color.FromArgb(41, 51, 73);
             ucDefault.Location = new Point(113, 0);
             ucDefault.Name = "ucDefault";
-            ucDefault.Size = new Size(583, 627);
+            ucDefault.Size = new Size(594, 635);
             ucDefault.TabIndex = 3;
             ucDefault.MouseDown += ucDefault_MouseDown;
             // 
@@ -229,7 +218,7 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            BackColor = Color.FromArgb(41, 51, 73);
+            BackColor = Color.White;
             ClientSize = new Size(698, 629);
             Controls.Add(btnMinimizar);
             Controls.Add(btnCerrar);
@@ -238,6 +227,7 @@
             Controls.Add(panelMenu);
             Controls.Add(ucSettings);
             Controls.Add(ucDefault);
+            ForeColor = Color.Black;
             FormBorderStyle = FormBorderStyle.None;
             Name = "FormPrincipal";
             StartPosition = FormStartPosition.CenterScreen;
@@ -246,7 +236,6 @@
             MouseDown += Form1_MouseDown;
             panelMenu.ResumeLayout(false);
             PanelMenuNotas.ResumeLayout(false);
-            PanelMenuNotas.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ResumeLayout(false);
         }
@@ -256,7 +245,6 @@
         private Panel panelMenu;
         private Panel PanelMenuNotas;
         private PictureBox pictureBox1;
-        private Label lblUINombre;
         private Button btnHome;
         private ImageList imglBotones;
         private Button btnContacto;

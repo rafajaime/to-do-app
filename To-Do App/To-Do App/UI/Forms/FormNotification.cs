@@ -1,18 +1,21 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows.Forms;
-using To_Do_App.Models;
+﻿using To_Do_App.Models;
 using To_Do_App.Properties;
+
+
+///
+/// Iconos usados
+/// 
 
 //<a href="https://www.flaticon.com/free-icons/tick" title="tick icons">Tick icons created by Kiranshastry - Flaticon</a>
 //<a href="https://www.flaticon.com/free-icons/close" title="close icons">Close icons created by Ilham Fitrotul Hayat - Flaticon</a>
 //<a href="https://www.flaticon.com/free-icons/info" title="info icons">Info icons created by Freepik - Flaticon</a>
+
+//<a href="https://www.flaticon.com/free-icons/home" title="home icons">Home icons created by Dave Gandy - Flaticon</a>
+//<a href="https://www.flaticon.com/free-icons/settings" title="settings icons">Settings icons created by Pixel perfect - Flaticon</a>
+//
+
+//<a href="https://www.flaticon.com/free-icons/remove" title="remove icons">Remove icons created by Royyan Wijaya - Flaticon</a>
+//<a href="https://www.flaticon.com/free-icons/document" title="document icons">Document icons created by Freepik - Flaticon</a>
 
 
 namespace To_Do_App.UI.Forms
@@ -21,10 +24,13 @@ namespace To_Do_App.UI.Forms
     {
         int formNotifX;
         int formNotifY;
+        public static string DescripcionDelMensaje = "";
         public FormNotification(string tipo, string mensaje)
         {
             InitializeComponent();
+            this.ShowInTaskbar = false;
             EvaluarTipoMensajeYUIMode(tipo, mensaje);
+            DescripcionDelMensaje = mensaje;
             Region = System.Drawing.Region.FromHrgn
             (UI_API.CreateRoundRectRgn(0, 0, Width, Height, 25, 25));
         }
@@ -56,15 +62,32 @@ namespace To_Do_App.UI.Forms
         {
             UI_API.PermitirMoverForm(e, Handle);
         }
-
+        protected override CreateParams CreateParams    //Func para ocultar form en alt+tab
+        {
+            get
+            {
+                int WS_EX_TOOLWINDOW = 0x00000080;
+                var Params = base.CreateParams;
+                Params.ExStyle |= WS_EX_TOOLWINDOW;
+                return Params;
+            }
+        }
         private void Posicionar()
         {
             int ScreenHeight = Screen.PrimaryScreen!.WorkingArea.Height;
             int ScreenWidth = Screen.PrimaryScreen.WorkingArea.Width;
 
-            formNotifY = ScreenHeight - this.Height * 14;
+            formNotifY = ScreenHeight - this.Height - 767;
             formNotifX = ScreenWidth - this.Width - 15;
 
+            
+            for (int i = Application.OpenForms.Count - 1; i >= 0; i--)  //for loop para posicionar una notificacion debajo de otra
+            {
+                if (Application.OpenForms[i]!.Name == "FormNotification")
+                {
+                    formNotifY = formNotifY + 80;
+                }
+            }
             this.Location = new Point(formNotifX, formNotifY);
         }
         private void EvaluarTipoMensajeYUIMode(string tipo, string mensaje)
@@ -107,20 +130,21 @@ namespace To_Do_App.UI.Forms
         {
             formNotifY += 13;
             this.Location = new Point(formNotifX, formNotifY);
+            
             if (formNotifY >= 41)
             {
                 timerMostrarNotif.Stop();
                 timerEsconderNotif.Start();
             }
         }
-        int contadorHide = 200;
+        int contadorHide = 200; //Contador para timear el Hide de la Form
         private void timerEsconderNotif_Tick(object sender, EventArgs e)
         {
             contadorHide--;
             if (contadorHide <= 0)
             {
-                formNotifY -= 1;
-                this.Location = new Point(formNotifX, formNotifY -= 13);
+                formNotifY -= 13;
+                this.Location = new Point(formNotifX, formNotifY);
                 if (formNotifY < -31)
                 {
                     timerEsconderNotif.Stop();

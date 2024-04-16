@@ -49,7 +49,8 @@ namespace To_Do_App.Models
         public static Color LightColorTituloUCs = Color.FromArgb(179, 200, 207);
         public static Color LightColorNotasYControles = Color.FromArgb(229, 221, 197);
 
-        public static Color LightColorFormPrincipal = Color.FromArgb(190, 215, 220);
+        //public static Color LightColorFormPrincipal = Color.FromArgb(190, 215, 220);
+        public static Color LightColorFormPrincipal = Color.FromArgb(179, 200, 207);
         public static Color LightColorTituloApp = Color.FromArgb(72, 84, 96);
 
         public static void ActivarUIMode(string UIMode) //UIMode puede ser "dark" o "light" (sin comillas)
@@ -57,8 +58,6 @@ namespace To_Do_App.Models
             StaticUIMode = UIMode;
             ClaseNotaDAO.ModificarSettings(StaticUIMode);
         }
-
-
         public static void NuevoFormNotification(string tipo, string mensaje)
         {
             FormNotification notification = new FormNotification(tipo, mensaje);

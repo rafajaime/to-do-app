@@ -57,7 +57,7 @@
             lblTitulo.AutoSize = true;
             lblTitulo.Font = new Font("Microsoft Tai Le", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
             lblTitulo.ForeColor = Color.FromArgb(158, 161, 176);
-            lblTitulo.Location = new Point(7, 6);
+            lblTitulo.Location = new Point(7, 12);
             lblTitulo.Name = "lblTitulo";
             lblTitulo.Size = new Size(79, 21);
             lblTitulo.TabIndex = 0;

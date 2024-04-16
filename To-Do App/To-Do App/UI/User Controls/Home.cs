@@ -66,18 +66,20 @@ namespace To_Do_App.UI.User_Controls
                 if (item.isChecked == true)
                 {
                     ClaseNotaDAO.BorrarNotaEnDB(item.Id);
-                    if(contadorNotasBorradas < 1)
-                    {
-                        UI_API.NuevoFormNotification("EXITO", "Se eliminó la nota");
-                    }
-                    else if(contadorNotasBorradas > 0)
-                    {
-                        UI_API.NuevoFormNotification("EXITO", "Se eliminaron las notas");
-                    }    
                     contadorNotasBorradas++;
                     wasAnyItemChecked = true;
                 }
             }
+
+            if (contadorNotasBorradas == 1)
+            {
+                UI_API.NuevoFormNotification("EXITO", "Se eliminó la nota");
+            }
+            else if (contadorNotasBorradas > 1)
+            {
+                UI_API.NuevoFormNotification("EXITO", "Se eliminaron las notas");
+            }
+            contadorNotasBorradas = 0;
 
             if (!wasAnyItemChecked)
             {
@@ -99,12 +101,16 @@ namespace To_Do_App.UI.User_Controls
                 formPrincipal?.ActualizarUIMode();
                 this.BackColor = UI_API.DarkColorFondo;
                 lblTitulo.ForeColor = UI_API.DarkColorTituloUCs;
+                btnNewNote.Image = imgListBotonPlus.Images[0];
+                btnDeleteNote.Image = imgListBotonMinus.Images[0];
             }
             else if (UI_API.StaticUIMode == "light")
             {
                 formPrincipal?.ActualizarUIMode();
                 this.BackColor = UI_API.LightColorFondo;
                 lblTitulo.ForeColor = UI_API.LightColorTituloUCs;
+                btnNewNote.Image = imgListBotonPlus.Images[1];
+                btnDeleteNote.Image = imgListBotonMinus.Images[1];
             }
             else
             {

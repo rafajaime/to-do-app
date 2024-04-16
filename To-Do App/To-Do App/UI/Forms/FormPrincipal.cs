@@ -1,6 +1,7 @@
 using System.Runtime.InteropServices;
 using To_Do_App.Data_Access_Obj;
 using To_Do_App.Models;
+using To_Do_App.Properties;
 
 namespace To_Do_App
 {
@@ -176,24 +177,32 @@ namespace To_Do_App
         {
             if(UI_API.StaticUIMode == "dark")
             {
+                this.BackColor = Color.Black;
                 btnCerrar.BackColor = UI_API.DarkColorFondo;
                 btnMinimizar.BackColor = UI_API.DarkColorFondo;
                 btnHome.BackColor = UI_API.DarkColorFormPrincipal;
+                btnHome.Image = imglBotones.Images[0];
                 btnSettings.BackColor = UI_API.DarkColorFormPrincipal;
+                btnSettings.Image = imglBotones.Images[1];
                 btnContacto.BackColor = UI_API.DarkColorFormPrincipal;
+                btnContacto.Image = imglBotones.Images[2];
 
-                lblUINombre.ForeColor = UI_API.DarkColorTituloApp;
+                //lblUINombre.ForeColor = UI_API.DarkColorTituloApp;
                 panelMenu.BackColor = UI_API.DarkColorFormPrincipal;
             }
             else if(UI_API.StaticUIMode == "light")
             {
+                this.BackColor = UI_API.DarkColorFormPrincipal;
                 btnCerrar.BackColor = UI_API.LightColorFondo;
                 btnMinimizar.BackColor = UI_API.LightColorFondo;
                 btnHome.BackColor = UI_API.LightColorFormPrincipal;
+                btnHome.Image = imglBotones.Images[3];
                 btnSettings.BackColor = UI_API.LightColorFormPrincipal;
+                btnSettings.Image = imglBotones.Images[4];
                 btnContacto.BackColor = UI_API.LightColorFormPrincipal;
+                btnContacto.Image = imglBotones.Images[5];
 
-                lblUINombre.ForeColor = UI_API.LightColorTituloApp;
+                //lblUINombre.ForeColor = UI_API.LightColorTituloApp;
                 panelMenu.BackColor = UI_API.LightColorFormPrincipal;
             }
         }
