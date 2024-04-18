@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34330.188
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "To-Do App", "To-Do App\To-Do App.csproj", "{7DCC3054-0EC5-422E-BD70-EFA7A6C63A5D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "To-Do App", "To-Do App\To-Do App.csproj", "{7DCC3054-0EC5-422E-BD70-EFA7A6C63A5D}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "To-Do App Setup", "To-Do App Setup\To-Do App Setup.vdproj", "{4E6E62A1-E7DE-4EF8-AA69-593465E0CC60}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,8 @@ Global
 		{7DCC3054-0EC5-422E-BD70-EFA7A6C63A5D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7DCC3054-0EC5-422E-BD70-EFA7A6C63A5D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7DCC3054-0EC5-422E-BD70-EFA7A6C63A5D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4E6E62A1-E7DE-4EF8-AA69-593465E0CC60}.Debug|Any CPU.ActiveCfg = Debug
+		{4E6E62A1-E7DE-4EF8-AA69-593465E0CC60}.Release|Any CPU.ActiveCfg = Release
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
