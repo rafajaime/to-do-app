@@ -8,6 +8,7 @@
     <UseWindowsForms>true</UseWindowsForms>
     <ImplicitUsings>enable</ImplicitUsings>
 	<IncludeNativeLibrariesForSelfExtract>true</IncludeNativeLibrariesForSelfExtract>
+	<ApplicationIcon>Notas icono.ico</ApplicationIcon>
   </PropertyGroup>
 
   <ItemGroup>
@@ -16,6 +17,10 @@
 
   <ItemGroup>
     <EmbeddedResource Remove="UI\test.resx" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Notas icono.ico" />
   </ItemGroup>
 
   <ItemGroup>

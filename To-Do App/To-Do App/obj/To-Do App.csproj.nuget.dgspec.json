@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Rafa\\Desktop\\visual studio\\tuts\\c#\\To-Do App\\To-Do App\\To-Do App.csproj": {}
+    "C:\\Users\\Rafa\\Desktop\\github\\to-do-app\\To-Do App\\To-Do App\\To-Do App.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Rafa\\Desktop\\visual studio\\tuts\\c#\\To-Do App\\To-Do App\\To-Do App.csproj": {
+    "C:\\Users\\Rafa\\Desktop\\github\\to-do-app\\To-Do App\\To-Do App\\To-Do App.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Rafa\\Desktop\\visual studio\\tuts\\c#\\To-Do App\\To-Do App\\To-Do App.csproj",
+        "projectUniqueName": "C:\\Users\\Rafa\\Desktop\\github\\to-do-app\\To-Do App\\To-Do App\\To-Do App.csproj",
         "projectName": "To-Do App",
-        "projectPath": "C:\\Users\\Rafa\\Desktop\\visual studio\\tuts\\c#\\To-Do App\\To-Do App\\To-Do App.csproj",
+        "projectPath": "C:\\Users\\Rafa\\Desktop\\github\\to-do-app\\To-Do App\\To-Do App\\To-Do App.csproj",
         "packagesPath": "C:\\Users\\Rafa\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Rafa\\Desktop\\visual studio\\tuts\\c#\\To-Do App\\To-Do App\\obj\\",
+        "outputPath": "C:\\Users\\Rafa\\Desktop\\github\\to-do-app\\To-Do App\\To-Do App\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Rafa\\AppData\\Roaming\\NuGet\\NuGet.Config",
