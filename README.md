@@ -42,7 +42,7 @@
       </ul>
     </li>
     <li>
-      <a href="#¿Como-se-utiliza?">¿Como se utiliza?</a>
+      <a href="#Instrucciones-de-uso">Instrucciones de uso</a>
       <ul>
         <li><a href="#Instalación">Instalación</a></li>
       </ul>
@@ -84,7 +84,7 @@ Fue diseñada con Windows Forms y SQLite para el almacenamiento de notas y confi
 
 
 <!-- USAGE -->
-## ¿Como se utiliza?
+## Instrucciones de uso
 Para utilizar y probar la aplicación se deben seguir unos muy sencillos pasos.
 ### Instalación
 
