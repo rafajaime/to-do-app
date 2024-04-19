@@ -60,7 +60,7 @@
 
 <div style="text-align: center;">
       <p align="center">
-  <img src="https://github.com/rafajaime/to-do-app/blob/main/imagenes/notas_intro.png?raw=true" width="150" height="150" />
+  <img src="https://github.com/rafajaime/to-do-app/blob/main/imagenes/notas_intro1.png?raw=true" width="150" height="150" />
     </p>
 <div/>
 
