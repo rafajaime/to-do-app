@@ -36,7 +36,7 @@
   <summary>Tabla de Contenidos</summary>
   <ol>
     <li>
-      <a href="#Acerca del proyecto">Acerca del proyecto</a>
+      <a href="#Acerca%20del%20proyecto">Acerca del proyecto</a>
       <ul>
         <li><a href="#Hecho con">Hecho con</a></li>
       </ul>
