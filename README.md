@@ -38,11 +38,11 @@
     <li>
       <a href="#Acerca-del-proyecto">Acerca del proyecto</a>
       <ul>
-        <li><a href="#Hecho con">Hecho con</a></li>
+        <li><a href="#Hecho-con">Hecho con</a></li>
       </ul>
     </li>
     <li>
-      <a href="#¿Cómo se utiliza?">¿Cómo se utiliza?</a>
+      <a href="#¿Cómo-se-utiliza?">¿Cómo se utiliza?</a>
       <ul>
         <li><a href="#Instalación">Instalación</a></li>
       </ul>
