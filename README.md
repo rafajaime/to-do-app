@@ -78,6 +78,7 @@ Fue diseñada con Windows Forms y SQLite para el almacenamiento de notas y confi
 * [![.NET][.net-shield]][.net-url]
 * [![SQLite][sqlite-shield]][sqlite-url]
 * [![CSharp][csharp-shield]][csharp-url]
+* [![Subversion][subversion-shield]][subversion-url]
 
 <p align="right">(<a href="#readme-top">Volver al principio</a>)</p>
 
@@ -156,3 +157,5 @@ Distribuido bajo licencia MIT. &nbsp;Ver `LICENSE.txt` para más información.
 [sqlite-shield]: https://img.shields.io/badge/sqlite-%2307405e.svg?style=for-the-badge&logo=sqlite&logoColor=white
 [csharp-url]: https://es.wikipedia.org/wiki/C_Sharp
 [csharp-shield]: https://img.shields.io/badge/c%23-%23239120.svg?style=for-the-badge&logo=csharp&logoColor=white
+[subversion-url]: https://subversion.apache.org/
+[subversion-shield]: https://img.shields.io/badge/subversion-%23809CC9.svg?style=for-the-badge&logo=subversion&logoColor=white
